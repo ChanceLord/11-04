@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    
+    background: linear-gradient(137deg, rgba(178,164,255,1) 27%, rgba(255,222,180,1) 65%);
+    /* para que el fondo este en todo el body */
+    background-attachment: fixed;
+}
+
+.padre{
+    background-color: #FFF9CA;
+	display: flex;
+    width: 19%;
+    margin: 10px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+.fill:hover,
+.fill:focus {
+box-shadow: inset 0 0 0 2em var(--hover);
+}
+
+.pulse:hover,
+.pulse:focus {
+animation: pulse 1s;
+box-shadow: 0 0 0 2em transparent;
+}
+
+@keyframes pulse {
+0% {
+    box-shadow: 0 0 0 0 var(--hover);
+}
+}
+
+/* .close:hover,
+.close:focus {
+box-shadow: inset -3.5em 0 0 0 var(--hover), inset 3.5em 0 0 0 var(--hover);
+}
+
+.raise:hover,
+.raise:focus {
+box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+transform: translateY(-0.25em);
+}
+
+.up:hover,
+.up:focus {
+box-shadow: inset 0 -3.25em 0 0 var(--hover);
+}
+
+.slide:hover,
+.slide:focus {
+box-shadow: inset 6.5em 0 0 0 var(--hover);
+} */
+
+
+.fill {
+--color: #a972cb;
+--hover: #cb72aa;
+}
+
+.pulse {
+--color: #ef6eae;
+--hover: #fa4ca3;
+}
+
+/* .close {
+--color: #ff7f82;
+--hover: #ffdc7f;
+}
+
+.raise {
+--color: #ffa260;
+--hover: #e5ff60;
+}
+
+.up {
+--color: #e4cb58;
+--hover: #94e458;
+}
+
+.slide {
+--color: #8fc866;
+--hover: #66c887;
+} */
+
+button {
+color: var(--color);
+transition: 0.25s;
+}
+
+button:hover, button:focus {
+border-color: var(--hover);
+color: black;
+}
+
+
+
+button {
+background: none;
+border: 2px solid;
+font: inherit;
+line-height: 1;
+margin: 0.5em;
+padding: 1em 2em;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* cuando haga click en el a esté de color negro la letra */
+a:active{
+    color: black; 
+    }
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1300px) {
+    .padre {
+        width: 22%; 
+    }
+}
+
+
+
+ @media screen and (max-width:800px){
+    .padre{
+        width: 18%;
+    }
+
+  }
+
+
+
+  @media screen and (max-width:600px)
+  {
+    .padre{
+        width: 19%;
+    }
+
+ 
+
+  }
+
+ 
+  
+  @media screen and (max-width:570px)
+  {
+    .padre{
+        width: 22%;
+    }
+  }
+
+  @media screen and (max-width:460px)
+  {
+    .padre{
+        width: 25%;
+    }
+  }
