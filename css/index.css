@@ -11,20 +11,20 @@ body{
     
     background: linear-gradient(137deg, rgba(178,164,255,1) 27%, rgba(255,222,180,1) 65%);
     /* para que el fondo este en todo el body */
-    background-attachment: fixed;
+    background-attachment: fixed; 
 }
 
 .padre{
-    background-color: #FFF9CA;
-	display: flex;
-    width: 19%;
-    margin: 10px; 
+    width: 20%;
+    margin: 10%; 
     margin-left: auto;
     margin-right: auto;
 }
 
 
-
+.marque{
+    margin: 13%;
+}
 
 .fill:hover,
 .fill:focus {
@@ -134,49 +134,5 @@ a:active{
 
 
 
-
-@media screen and (max-width: 1300px) {
-    .padre {
-        width: 22%; 
-    }
-}
-
-
-
- @media screen and (max-width:800px){
-    .padre{
-        width: 20%;
-    }
-
-  }
-
-
-
-  @media screen and (max-width:600px)
-  {
-    .padre{
-        width: 19%;
-    }
-
- 
-
-  }
-
- 
-  
-  @media screen and (max-width:570px)
-  {
-    .padre{
-        width: 33%;
-    }
-  }
-
-  @media screen and (max-width:420px)
-  {
-    .padre{
-        width: 30%;
-    
-    }
-  }
 
 
