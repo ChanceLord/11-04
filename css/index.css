@@ -167,13 +167,16 @@ a:active{
   @media screen and (max-width:570px)
   {
     .padre{
-        width: 22%;
+        width: 33%;
     }
   }
 
-  @media screen and (max-width:460px)
+  @media screen and (max-width:420px)
   {
     .padre{
-        width: 25%;
+        width: 30%;
+    
     }
   }
+
+
