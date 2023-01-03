@@ -15,7 +15,7 @@ body{
 }
 
 .padre{
-    width: 19%;
+    width: 42%;
     margin: 10%; 
     margin-left: auto;
     margin-right: auto;
@@ -23,7 +23,7 @@ body{
 
 
 .marque{
-    margin: 13%;
+    margin: 12%;
 }
 
 .fill:hover,
